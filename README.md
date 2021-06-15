@@ -36,3 +36,7 @@ var body: some View {
 If this package receives attention, I will continue to add features to this.
 
 Please make your feature requests using the GitHub Issues system!
+
+## Credits
+
+This project has been adapated from [this repo](https://github.com/simibac/ConfettiSwiftUI), with some modifications. Credits go to the original author!
