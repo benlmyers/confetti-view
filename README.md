@@ -1,6 +1,8 @@
 # ConfettiView
 
-Create fun confetti views with ease!
+Create fun animated confetti views with ease!
+
+![Social Preview](https://github.com/benlmyers/confetti-view/blob/main/GitHub%20Social%20Preview.png?raw=true)
 
 ## Installation
 
