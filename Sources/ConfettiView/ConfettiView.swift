@@ -69,14 +69,25 @@ fileprivate struct SingleConfettiView: View {
 
 public struct ConfettiView: View {
   
+  /// The color of the confetti. Leave blank to imply random colors.
+  fileprivate var color: Color? = nil
+  
   public init() {}
+  
+  public init(_ color: Color) {
+    self.color = color
+  }
   
   public var body: some View {
     
     ZStack {
       
       ForEach(0...20, id: \.self) { _ in
-        SingleConfettiView()
+        if let color = self.color {
+          SingleConfettiView(color: color)
+        } else {
+          SingleConfettiView()
+        }
       }
     }
   }
