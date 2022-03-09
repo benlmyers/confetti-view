@@ -8,7 +8,7 @@
 #if os(iOS)
 import SwiftUI
 
-@available(iOS 13.0, *)
+@available(iOS 13.0, macOS 10.15, *)
 fileprivate struct SingleConfettiView: View {
   
   @State var animate = false
