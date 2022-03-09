@@ -5,7 +5,6 @@
 //  Created by Ben Myers on 1/16/21.
 //
 
-#if os(iOS)
 import SwiftUI
 
 @available(iOS 13.0, macOS 10.15, *)
@@ -67,6 +66,7 @@ fileprivate struct SingleConfettiView: View {
   }
 }
 
+@available(iOS 13.0, macOS 10.15, *)
 public struct ConfettiView: View {
   
   /// The color of the confetti. Leave blank to imply random colors.
@@ -92,5 +92,3 @@ public struct ConfettiView: View {
     }
   }
 }
-
-#endif
